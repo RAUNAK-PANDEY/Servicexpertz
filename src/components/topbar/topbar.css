@@ -1,0 +1,59 @@
+.uptopbarContainer{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    
+      
+}
+.bgcolor{
+    box-shadow: 0px 0px 10px #a8a8ad;
+}
+.uptopbarWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+     
+}
+
+.navitem{
+    font-size:13px;
+    font-weight: 800;
+}
+
+.itemlist{
+    display: flex;
+    flex-direction: row;
+}
+ .brands{
+     display: flex;
+     justify-content: space-between;
+ }
+.faclock , .fasocial  ,.faemail, .facontact{
+    font-size: 30px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+ 
+@media only screen and (max-width: 650px) {
+    .uptopbarContainer{
+        height: 100%;
+        width: 100%;
+         
+    }
+    .uptopbarWrapper{
+         
+        padding : 5px;
+    }
+    .navitem{
+        font-size:5px;
+        font-weight: 800;
+    }
+    .faclock , .fasocial  ,.faemail, .facontact{
+        font-size: 1rem;
+          
+    }
+}

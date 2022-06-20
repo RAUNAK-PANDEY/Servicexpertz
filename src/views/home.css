@@ -1,0 +1,116 @@
+.homesearch{
+    display: flex;
+    background-color: #fff;
+    height: 10vh;
+}
+
+.homewrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    margin-top: 5px;
+    padding: 2px;
+}
+
+.baricon{
+    margin-right: 1.9rem;
+    margin-left: 5rem;
+    font-size: 1.4rem;
+}
+
+.headingContainer{
+    height: 10rem;
+    background-color: rgb(231, 227, 227);
+}
+
+.headingWrap{
+    display: flex;
+    padding: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* body */
+.bodyContainer{
+    display: flex;
+
+}
+
+
+.bodyWrap{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+.servicebutton{
+    margin: 0.7rem 4rem;
+}
+ 
+.services{
+    width: 15rem;
+    height: 2.1rem;
+}
+.infobody{
+    display: flex;
+    flex-direction: row;
+    margin-right: 6rem;
+}
+
+
+/* image Container */
+.imageContainer{
+    margin: 3rem;
+}
+
+.imageWrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imageCard{
+    box-shadow: 0px 0px 10px #a8a8ad;
+}
+
+
+/* FOOTER */
+.footerContainer{
+    height: 15rem;
+    background-color: rgb(65, 133, 235);
+    
+}
+.footerBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3rem;
+     
+}
+
+.footerBody h6  {
+    color: #fff;
+}
+ 
+.footerlink{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;  
+}
+.footerendwarp{
+
+    margin-top: 6.5rem;
+}
+.copyright b{
+    color: #fff;
+   margin-left: 1.1rem;
+}
+.footerlink a{
+     color: #fff;
+     margin-right: 10px;
+     text-decoration: none;
+    
+}
